@@ -374,7 +374,7 @@ hr {
 .icon-Container {
   width: 30px;
   height: 30px;
-  background-color: #f59aff;
+  background-color: var(--accent);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -389,6 +389,7 @@ hr {
   color: white;
 }
 .icon-Container svg {
+  margin-left: 5px;
   transition-duration: 1.5s;
 }
 .Btn-Container:hover .icon-Container svg {
