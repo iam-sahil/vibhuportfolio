@@ -94,6 +94,9 @@ hr {
     .Btn-Container {
       right: -2rem;
     }
+    .blob {
+      display: none;
+    }
 }
 @media screen and (min-width:768px) and (max-width:1024px) {
     :root {
@@ -340,6 +343,8 @@ hr {
     alternate forwards;
   filter: blur(40px);
   z-index: -1;
+  isolation: isolate;
+  user-select: none;
 }
 .blob-1 {
   background: linear-gradient(
